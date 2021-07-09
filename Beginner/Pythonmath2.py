@@ -10,21 +10,21 @@ def main():
     elif (x > y):
         st = "x is greater than y"
     else:
-        print("Foute input!")
+        print("Wrong Input!")
     print(st)
 
 main()
 
 def extra():
-    x, y= input("wat is a?"), input("wat is b?")
+    x, y= input("what is a?"), input("what is b?")
     if (x < y):
-        st = "a is kleiner!"
+        st = "a is less than b!"
     elif (x == y):
-        st = "a is gelijk!"
+        st = "a is the same as b!"
     elif (x > y):
-        st = "a is groter!"
+        st = "a is greater than b!"
     else:
-        st= "foute input!"
+        st= "Wrong input!"
     print(st)
 extra()
 
