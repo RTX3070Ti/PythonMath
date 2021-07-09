@@ -1,5 +1,5 @@
 import math
-print("Wat is groter wat is kleiner machine!")
+print("Hi!")
 
 def main():
     x, y= input("X= "), input("Y= ")
@@ -16,7 +16,7 @@ def main():
 main()
 
 def extra():
-    x, y= input("what is a?"), input("what is b?")
+    x, y= input("What is a?"), input("What is b?")
     if (x < y):
         st = "a is less than b!"
     elif (x == y):
