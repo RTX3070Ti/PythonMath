@@ -1,7 +1,9 @@
+import math
+
 num1 = float(input("Enter your first number: "))
 op = input("enter your operator: ")
 num2 = float(input("Enter your second number: "))
-num3 = ("You are dumb!")
+num3 = ("Wrong input. ")
 if op == ("+"):
     print(num1 + num2)
 if op == ("-"):
